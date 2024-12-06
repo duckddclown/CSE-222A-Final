@@ -1,0 +1,238 @@
+Cubic 5s:
+
+[ec2-user@ip-172-31-19-10 ~]$ iperf3 -c 13.56.237.26  -t 5
+Connecting to host 13.56.237.26, port 5201
+[  5] local 172.31.19.10 port 59458 connected to 13.56.237.26 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  9.12 MBytes  76.5 Mbits/sec  169    365 KBytes       
+[  5]   1.00-2.00   sec  11.2 MBytes  94.4 Mbits/sec    0    395 KBytes       
+[  5]   2.00-3.00   sec  8.50 MBytes  71.3 Mbits/sec    3    303 KBytes       
+[  5]   3.00-4.00   sec  8.38 MBytes  70.3 Mbits/sec    0    324 KBytes       
+[  5]   4.00-5.00   sec  9.62 MBytes  80.7 Mbits/sec    0    335 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-5.00   sec  46.9 MBytes  78.6 Mbits/sec  172             sender
+[  5]   0.00-5.02   sec  45.6 MBytes  76.2 Mbits/sec                  receiver
+
+iperf Done.
+
+Rbb 5s:
+
+[ec2-user@ip-172-31-19-10 ~]$ iperf3 -c 13.56.237.26  -t 5
+Connecting to host 13.56.237.26, port 5201
+[  5] local 172.31.19.10 port 55180 connected to 13.56.237.26 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  28.4 MBytes   238 Mbits/sec    0   4.74 MBytes       
+[  5]   1.00-2.00   sec  69.4 MBytes   582 Mbits/sec    0   3.52 MBytes       
+[  5]   2.00-3.00   sec  70.2 MBytes   590 Mbits/sec    0   3.56 MBytes       
+[  5]   3.00-4.00   sec  66.8 MBytes   560 Mbits/sec    0   4.56 MBytes       
+[  5]   4.00-5.00   sec  65.4 MBytes   548 Mbits/sec    0   3.88 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-5.00   sec   300 MBytes   503 Mbits/sec    0             sender
+[  5]   0.00-5.02   sec   298 MBytes   498 Mbits/sec                  receiver
+
+iperf Done.
+
+Cubic 5s 0.005% 
+[ec2-user@ip-172-31-19-10 ~]$ iperf3 -c 13.56.237.26  -t 5
+Connecting to host 13.56.237.26, port 5201
+[  5] local 172.31.19.10 port 48284 connected to 13.56.237.26 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  8.00 MBytes  67.0 Mbits/sec    2    308 KBytes       
+[  5]   1.00-2.00   sec  8.50 MBytes  71.3 Mbits/sec    0    361 KBytes       
+[  5]   2.00-3.00   sec  10.4 MBytes  87.1 Mbits/sec    0    395 KBytes       
+[  5]   3.00-4.00   sec  8.50 MBytes  71.3 Mbits/sec    2    305 KBytes       
+[  5]   4.00-5.00   sec  8.38 MBytes  70.2 Mbits/sec    0    324 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-5.00   sec  43.8 MBytes  73.4 Mbits/sec    4             sender
+[  5]   0.00-5.02   sec  43.1 MBytes  72.0 Mbits/sec                  receiver
+
+iperf Done.
+
+Cubic 5s 0.01%
+
+[ec2-user@ip-172-31-19-10 ~]$ iperf3 -c 13.56.237.26  -t 5
+Connecting to host 13.56.237.26, port 5201
+[  5] local 172.31.19.10 port 44816 connected to 13.56.237.26 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  8.25 MBytes  69.1 Mbits/sec   14    315 KBytes       
+[  5]   1.00-2.00   sec  9.00 MBytes  75.5 Mbits/sec    0    363 KBytes       
+[  5]   2.00-3.00   sec  8.25 MBytes  69.2 Mbits/sec    7    284 KBytes       
+[  5]   3.00-4.00   sec  8.75 MBytes  73.4 Mbits/sec    0    305 KBytes       
+[  5]   4.00-5.00   sec  8.25 MBytes  69.2 Mbits/sec    0    320 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-5.00   sec  42.5 MBytes  71.3 Mbits/sec   21             sender
+[  5]   0.00-5.02   sec  41.9 MBytes  70.0 Mbits/sec                  receiver
+
+Cubic 5s 0.1%
+
+[ec2-user@ip-172-31-19-10 ~]$ iperf3 -c 13.56.237.26  -t 5
+Connecting to host 13.56.237.26, port 5201
+[  5] local 172.31.19.10 port 57974 connected to 13.56.237.26 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  3.00 MBytes  25.1 Mbits/sec    5    106 KBytes       
+[  5]   1.00-2.00   sec  3.12 MBytes  26.2 Mbits/sec    6   67.9 KBytes       
+[  5]   2.00-3.00   sec  1.75 MBytes  14.7 Mbits/sec    4   49.5 KBytes       
+[  5]   3.00-4.00   sec  2.00 MBytes  16.8 Mbits/sec    0   74.9 KBytes       
+[  5]   4.00-5.00   sec  2.38 MBytes  19.9 Mbits/sec    0   96.2 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-5.00   sec  12.2 MBytes  20.5 Mbits/sec   15             sender
+[  5]   0.00-5.02   sec  12.0 MBytes  20.0 Mbits/sec                  receiver
+
+BBR 5s 0.005%
+
+[ec2-user@ip-172-31-19-10 ~]$ iperf3 -c 13.56.237.26  -t 5
+Connecting to host 13.56.237.26, port 5201
+[  5] local 172.31.19.10 port 49710 connected to 13.56.237.26 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  64.0 MBytes   537 Mbits/sec    0   3.51 MBytes       
+[  5]   1.00-2.00   sec  69.9 MBytes   586 Mbits/sec    0   3.62 MBytes       
+[  5]   2.00-3.00   sec  68.1 MBytes   571 Mbits/sec    0   4.57 MBytes       
+[  5]   3.00-4.00   sec  69.6 MBytes   584 Mbits/sec    0   4.47 MBytes       
+[  5]   4.00-5.00   sec  67.9 MBytes   570 Mbits/sec    0   3.64 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-5.00   sec   340 MBytes   570 Mbits/sec    0             sender
+[  5]   0.00-5.02   sec   338 MBytes   565 Mbits/sec                  receiver
+
+iperf Done.
+
+BBR 5s 0.01%
+
+Connecting to host 13.56.237.26, port 5201
+[  5] local 172.31.19.10 port 57996 connected to 13.56.237.26 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  58.8 MBytes   492 Mbits/sec   98   3.53 MBytes       
+[  5]   1.00-2.00   sec  70.2 MBytes   589 Mbits/sec    0   3.42 MBytes       
+[  5]   2.00-3.00   sec  71.6 MBytes   601 Mbits/sec    0   3.42 MBytes       
+[  5]   3.00-4.00   sec  61.1 MBytes   513 Mbits/sec    0   4.42 MBytes       
+[  5]   4.00-5.00   sec  67.8 MBytes   568 Mbits/sec    0   4.62 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-5.00   sec   330 MBytes   553 Mbits/sec   98             sender
+[  5]   0.00-5.02   sec   327 MBytes   546 Mbits/sec                  receiver
+
+iperf Done.
+
+BBR 5s 0.1%
+
+Connecting to host 13.56.237.26, port 5201
+[  5] local 172.31.19.10 port 60830 connected to 13.56.237.26 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  56.1 MBytes   470 Mbits/sec  370   3.43 MBytes       
+[  5]   1.00-2.00   sec  65.4 MBytes   548 Mbits/sec   45   3.54 MBytes       
+[  5]   2.00-3.00   sec  68.1 MBytes   571 Mbits/sec    0   3.52 MBytes       
+[  5]   3.00-4.00   sec  67.0 MBytes   562 Mbits/sec   45   1.43 MBytes       
+[  5]   4.00-5.00   sec  65.2 MBytes   547 Mbits/sec    0   3.52 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-5.00   sec   322 MBytes   540 Mbits/sec  460             sender
+[  5]   0.00-5.02   sec   320 MBytes   534 Mbits/sec                  receiver
+
+iperf Done.
+
+Cubic 5s Fairness
+
+Connecting to host 13.56.237.26, port 5201
+[  5] local 172.31.19.10 port 55800 connected to 13.56.237.26 port 5201
+[  7] local 172.31.19.10 port 55810 connected to 13.56.237.26 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  4.50 MBytes  37.7 Mbits/sec   31    143 KBytes       
+[  7]   0.00-1.00   sec  5.88 MBytes  49.2 Mbits/sec    1    233 KBytes       
+[SUM]   0.00-1.00   sec  10.4 MBytes  86.9 Mbits/sec   32             
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   1.00-2.00   sec  4.38 MBytes  36.7 Mbits/sec    0    161 KBytes       
+[  7]   1.00-2.00   sec  7.12 MBytes  59.8 Mbits/sec    0    270 KBytes       
+[SUM]   1.00-2.00   sec  11.5 MBytes  96.5 Mbits/sec    0             
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   2.00-3.00   sec  4.38 MBytes  36.7 Mbits/sec    0    181 KBytes       
+[  7]   2.00-3.00   sec  5.00 MBytes  41.9 Mbits/sec    1    211 KBytes       
+[SUM]   2.00-3.00   sec  9.38 MBytes  78.6 Mbits/sec    1             
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   3.00-4.00   sec  5.12 MBytes  43.0 Mbits/sec    0    204 KBytes       
+[  7]   3.00-4.00   sec  5.88 MBytes  49.3 Mbits/sec    0    228 KBytes       
+[SUM]   3.00-4.00   sec  11.0 MBytes  92.3 Mbits/sec    0             
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   4.00-5.00   sec  4.75 MBytes  39.8 Mbits/sec    3    168 KBytes       
+[  7]   4.00-5.00   sec  6.50 MBytes  54.5 Mbits/sec    0    247 KBytes       
+[SUM]   4.00-5.00   sec  11.2 MBytes  94.3 Mbits/sec    3             
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-5.00   sec  23.1 MBytes  38.8 Mbits/sec   34             sender
+[  5]   0.00-5.03   sec  22.5 MBytes  37.5 Mbits/sec                  receiver
+[  7]   0.00-5.00   sec  30.4 MBytes  50.9 Mbits/sec    2             sender
+[  7]   0.00-5.03   sec  29.6 MBytes  49.4 Mbits/sec                  receiver
+[SUM]   0.00-5.00   sec  53.5 MBytes  89.7 Mbits/sec   36             sender
+[SUM]   0.00-5.03   sec  52.1 MBytes  86.8 Mbits/sec                  receiver
+
+iperf Done.
+
+BBR 5s Fairness
+
+Connecting to host 13.56.237.26, port 5201
+[  5] local 172.31.19.10 port 33502 connected to 13.56.237.26 port 5201
+[  7] local 172.31.19.10 port 33504 connected to 13.56.237.26 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  31.9 MBytes   267 Mbits/sec  859   3.47 MBytes       
+[  7]   0.00-1.00   sec  31.5 MBytes   264 Mbits/sec  1115   4.28 MBytes       
+[SUM]   0.00-1.00   sec  63.4 MBytes   531 Mbits/sec  1974             
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   1.00-2.00   sec  32.9 MBytes   276 Mbits/sec  1422   3.52 MBytes       
+[  7]   1.00-2.00   sec  32.5 MBytes   273 Mbits/sec  1631   3.52 MBytes       
+[SUM]   1.00-2.00   sec  65.4 MBytes   548 Mbits/sec  3053             
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   2.00-3.00   sec  30.0 MBytes   252 Mbits/sec  1039   2.86 MBytes       
+[  7]   2.00-3.00   sec  29.8 MBytes   250 Mbits/sec  1016   2.87 MBytes       
+[SUM]   2.00-3.00   sec  59.8 MBytes   501 Mbits/sec  2055             
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   3.00-4.00   sec  39.4 MBytes   330 Mbits/sec  1293   3.10 MBytes       
+[  7]   3.00-4.00   sec  38.2 MBytes   321 Mbits/sec  912   3.19 MBytes       
+[SUM]   3.00-4.00   sec  77.6 MBytes   651 Mbits/sec  2205             
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  5]   4.00-5.00   sec  31.1 MBytes   261 Mbits/sec  740   3.62 MBytes       
+[  7]   4.00-5.00   sec  30.9 MBytes   259 Mbits/sec  656   3.61 MBytes       
+[SUM]   4.00-5.00   sec  62.0 MBytes   519 Mbits/sec  1396             
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-5.00   sec   165 MBytes   277 Mbits/sec  5353             sender
+[  5]   0.00-5.02   sec   162 MBytes   271 Mbits/sec                  receiver
+[  7]   0.00-5.00   sec   163 MBytes   273 Mbits/sec  5330             sender
+[  7]   0.00-5.02   sec   160 MBytes   268 Mbits/sec                  receiver
+[SUM]   0.00-5.00   sec   328 MBytes   550 Mbits/sec  10683             sender
+[SUM]   0.00-5.02   sec   323 MBytes   539 Mbits/sec                  receiver
+
+iperf Done.
+
+30s Video BBR
+
+[out#0/mpegts @ 0x5dfa6bc5f440] video:968kB audio:1431kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 14.067657%
+frame=  901 fps= 30 q=9.1 Lsize=    2736kB time=00:00:30.49 bitrate= 735.0kbits/s speed=1.02x
+
+30s Video BBR 0.005%
+
+out#0/mpegts @ 0x5a5301ac9440] video:968kB audio:1431kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 14.067657%
+frame=  901 fps= 30 q=9.1 Lsize=    2736kB time=00:00:30.49 bitrate= 735.0kbits/s speed=1.02x 
+
+30s Video BBR 0.01%
+
+video:968kB audio:1431kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 14.067657%
+frame=  901 fps= 30 q=9.1 Lsize=    2736kB time=00:00:30.49 bitrate= 735.0kbits/s speed=1.02x   
+
+30s Video Cubic
+
+[out#0/mpegts @ 0x591ca9cf6440] video:968kB audio:1431kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 14.067657%
+frame=  901 fps= 30 q=9.1 Lsize=    2736kB time=00:00:30.49 bitrate= 735.0kbits/s speed=1.02x
+
+30s Video Cubic 0.005%
+
+[out#0/mpegts @ 0x56a8a6449440] video:968kB audio:1431kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 14.067657%
+frame=  901 fps= 30 q=9.1 Lsize=    2736kB time=00:00:30.49 bitrate= 735.0kbits/s speed=1.02x
+
+30s Video Cubic 0.01%
+
+[out#0/mpegts @ 0x631407dbd440] video:968kB audio:1431kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 14.067657%
+frame=  901 fps= 30 q=9.1 Lsize=    2736kB time=00:00:30.49 bitrate= 735.0kbits/s speed=1.02x
