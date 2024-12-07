@@ -16,7 +16,7 @@ Connecting to host 13.56.237.26, port 5201
 
 iperf Done.
 
-Rbb 5s:
+BBR 5s:
 
 [ec2-user@ip-172-31-19-10 ~]$ iperf3 -c 13.56.237.26  -t 5
 Connecting to host 13.56.237.26, port 5201
